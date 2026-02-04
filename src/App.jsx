@@ -29,6 +29,10 @@ function App() {
         </div>
         <ThreeCards />
       </div>
+      <div className='main__boost main__container'>
+        <span className='main__boost-header'>Boost your links today</span>
+        <a className='main__boost-link'>Get Started</a>
+      </div>
     </div>
   )
 }
