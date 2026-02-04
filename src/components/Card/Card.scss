@@ -1,0 +1,42 @@
+.card {
+    &__container {
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        position: relative;
+        padding: 60px 20px 20px 20px;
+    }
+
+    &__icon {
+        width: 42px;
+        height: 42px;
+
+        &-container {
+            position: absolute;
+            top: -35px;
+            left: 20px;
+            padding: 15px;
+            border-radius: 50%;
+            background-color: hsl(257, 27%, 26%);
+            width: 42px;
+            height: 42px;
+        }
+    }
+
+    &__header {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: hsl(260, 8%, 14%);
+    }
+
+    &__text {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: hsl(257, 7%, 63%);
+        line-height: 23px;
+    }
+}

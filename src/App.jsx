@@ -2,9 +2,10 @@ import './App.scss'
 import Header from './components/Header/Header'
 import main_photo from '../images/illustration-working.svg'
 import LinkInput from './components/LinkInput/LinkInput'
+import ThreeCards from './components/ThreeCards/ThreeCards'
+
 
 function App() {
-
   return (
     <div className='main__container'>
       <Header />
@@ -18,8 +19,15 @@ function App() {
         </div>
         <img src={main_photo} className='main__info-photo'></img>
       </div>
-      <div className='main__gray'>
-        <LinkInput />
+      <div className='main__gray main__container'>
+        <div className='main__gray__link-input'><LinkInput /></div>
+        <div className='main__gray-info'>
+          <span className='main__gray-info__header'>Advanced Statistics</span>
+          <p className='main__gray-info__text'>Track how your links are perfoming 
+            across the web with out advanced statistics dashboard.
+          </p>
+        </div>
+        <ThreeCards />
       </div>
     </div>
   )

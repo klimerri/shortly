@@ -1,10 +1,11 @@
 .link-input {
+    width: 100%;
+    max-width: 1200px;
+
     &__container {
         background-image: url('../../images/bg-shorten-desktop.svg');
         background-repeat: no-repeat;
         background-size: cover;
-        min-width: 1200px;
-        width: 100%;
         padding: 30px;
         background-color: hsl(257, 27%, 26%);
         display: flex;

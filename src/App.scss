@@ -12,6 +12,7 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 50px;
+        padding-bottom: 120px;
 
         &-left {
             display: flex;
@@ -53,6 +54,43 @@
 
         &-photo {
             width: 50%;
+        }
+    }
+
+    &__gray {
+        background-color: hsl(226, 37%, 93%);
+        width: 100%;
+        padding-bottom: 100px;
+
+        &__link-input {
+            transform: translateY(-60px);
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        &-info {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 40%;
+            margin-bottom: 80px;
+
+            &__header {
+                font-family: "Roboto", sans-serif;
+                font-weight: 700;
+                font-size: 36px;
+                color: hsl(255, 11%, 22%);
+                text-align: center;
+            }
+
+            &__text {
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                color: hsl(257, 7%, 63%);
+                text-align: center;
+                margin: 0px;
+            }
         }
     }
 }

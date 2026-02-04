@@ -1,0 +1,21 @@
+.three-card {
+    &__container {
+        display: flex;
+        align-items: center;
+        max-width: 1200px;
+    }
+
+    &_line {
+        height: 10px;
+        background-color: hsl(180, 66%, 49%);
+        width: 20px;
+    }
+}
+
+.card__container:nth-child(3) {
+    transform: translateY(40px);
+}
+
+.card__container:nth-child(5) {
+    transform: translateY(80px);
+}
