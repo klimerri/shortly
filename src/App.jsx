@@ -3,6 +3,7 @@ import Header from './components/Header/Header'
 import main_photo from '../images/illustration-working.svg'
 import LinkInput from './components/LinkInput/LinkInput'
 import ThreeCards from './components/ThreeCards/ThreeCards'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <span className='main__boost-header'>Boost your links today</span>
         <a className='main__boost-link'>Get Started</a>
       </div>
+      <Footer />
     </div>
   )
 }

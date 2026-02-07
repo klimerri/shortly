@@ -1,0 +1,32 @@
+.footer {
+    background-color:  hsl(257, 27%, 26%);
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    &__container {
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+    }
+
+    &__logo {
+        filter: brightness(1000%);
+        height: 33px;
+    }
+
+    &__social {
+        &-link {
+            color: #fff;
+            transition: color 0.3s linear;
+            cursor: pointer;
+
+            &:hover {
+                color: hsl(180, 66%, 49%);
+            }
+        }
+    }
+}
